@@ -96,7 +96,9 @@ this is a good tutorial: [Redis on Mac & Linux](https://www.codingforentreprene
     ``` python
     python manage.py makemigrations
     python manage.py migrate  
+    python manage.py migrate --run-sync-db
     ```
+
 
   * Add Cron Jobs
 
@@ -135,6 +137,8 @@ this is a good tutorial: [Redis on Mac & Linux](https://www.codingforentreprene
     [Install]
     WantedBy=multi-user.target
     ```
+
+    save the file and run the service start command
 
     ``` bash
     sudo systemctl start discordbot
