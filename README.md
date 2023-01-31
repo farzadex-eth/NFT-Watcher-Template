@@ -5,6 +5,8 @@
 
 * This project uses django for backend integrated with a discord bot. Also viewsets for api is defined.
 
+* Also Join the server I created: https://discord.gg/MJVbDX5mVt
+
 ## How to Use
 
 * create virtual env and install the requirements
