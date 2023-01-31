@@ -37,10 +37,10 @@ sudo apt install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
   * create user and give roles and privileges
   ``` sql
   CREATE USER watcheroot WITH PASSWORD 'toor';
-  ALTER ROLE myprojectuser SET client_encoding TO 'utf8';
-  ALTER ROLE myprojectuser SET default_transaction_isolation TO 'read committed';
-  ALTER ROLE myprojectuser SET timezone TO 'UTC';
-  GRANT ALL PRIVILEGES ON DATABASE myproject TO myprojectuser;
+  ALTER ROLE watcheroot SET client_encoding TO 'utf8';
+  ALTER ROLE watcheroot SET default_transaction_isolation TO 'read committed';
+  ALTER ROLE watcheroot SET timezone TO 'UTC';
+  GRANT ALL PRIVILEGES ON DATABASE myproject TO watcheroot;
   ```
 
   * exit
