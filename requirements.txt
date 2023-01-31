@@ -8,7 +8,7 @@ discord.py
 django-otp
 # discord-py-interactions
 git+https://github.com/interactions-py/library.git@4.4.0-beta.1
-psycopg2
+psycopg2-binary
 pillow
 matplotlib
 requests
