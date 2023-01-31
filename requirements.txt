@@ -1,0 +1,14 @@
+Django
+django-crontab
+djangorestframework
+celery
+django-celery-results
+redis
+discord.py
+django-otp
+# discord-py-interactions
+git+https://github.com/interactions-py/library.git@4.4.0-beta.1
+psycopg2
+pillow
+matplotlib
+requests
